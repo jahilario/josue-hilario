@@ -1,0 +1,73 @@
+
+html {
+    min-height: 100%;
+    background-image: url(../images/Cover.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header {
+    position: fixed;
+    z-index: 999;
+}
+
+header h1 {
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 10%;
+    text-align: center;
+    font-size: 8vw;
+    text-shadow: 0 0 50px rgba(0, 0, 0, 2);
+}
+
+header nav {
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 70%;
+    width: 60%;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+
+    padding: 13px 18px;
+    font-size: 1.5vw;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 2);
+    border: 2.5px solid white;
+}
+
+
+
+
+
+
+
+
+/*.bg {
+    background-image: url(../images/Cover.JPG);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ 
+
+}
