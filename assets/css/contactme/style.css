@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 3.55vw;
+}
+
+header {
+    padding: 65px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-image: url(/assets/images/Cover.JPG);
+    background-size: cover;
+    background-position: center;
+    z-index: 9999;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a {
+    padding: 13px 18px;
+    font-size: 1.5vw;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 2);
+}
+
+.contact-me {}
+
+.contact-me h2 {
+    font-size: 2.2vw;
+    text-align: center;
+    margin-top: 2.2em;
+    margin-bottom: 2.2em;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 2.2em;
+    line-height: 1.6;
+
+}
+
+.info h3 {
+    font-size: 1.55vw;
+}
+
+.info p {
+    font-size: 25px;
+}
+
+iframe {
+    margin-bottom: 2.2em;
+}
